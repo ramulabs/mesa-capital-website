@@ -8,7 +8,7 @@ A single-page static landing site for Mesa Capital: `index.html` (a self-contain
 
 ## Hosting
 
-The `_headers` file suggests **Cloudflare Pages**. There is no Vercel project for it in the `ramulabs` team. This couldn't be verified from here because the Cloudflare connector needs re-authorization. Confirm the Pages project name and custom domain in the Cloudflare dashboard.
+**Cloudflare Pages**, project `mesa-capital-companyprofile`. Confirmed by the "Cloudflare Pages" check on this repo's PRs: every push builds a preview, and `main` deploys to production. `_headers` is the Pages headers file. There is no Vercel project for this site. Confirm the custom domain in the Cloudflare dashboard (Pages → `mesa-capital-companyprofile` → Custom domains).
 
 ## State
 
